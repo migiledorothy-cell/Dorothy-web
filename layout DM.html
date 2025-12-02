@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chukchuk Sales — affordable clothing, jewelry and books. Browse featured items and deals.">
+  <meta name="author" content="Chukchuk Sales">
+  <title>Chukchuk Sales — Clothing • Jewelry • Books</title>
+  <link rel="stylesheet" href="styles-improved.css">
+  <script defer
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script-improved.js"></script>
+
+</head>
+  <body>
+  <a class="skip-link sr-only" href="#main">Skip to content</a>
+
+  <div class="container">
+    <header class="site-header">
+      <div class="promo" id="promo-banner" role="region" aria-live="polite">
+        <div class="promo-inner">
+          <strong>Weekend Sale:</strong> Get 20% off all clothing + free shipping over $49. <button id="promo-dismiss" aria-label="Dismiss promotion">✕</button>
+        </div>
+      </div>
+      <div class="brand">
+        <a href="#" aria-label="Chukchuk Sales Home">Chukchuk <span>Sales</span></a>
+      </div>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle site navigation">☰</button>
+      <nav id="primary-navigation" class="primary-nav" role="navigation" aria-label="Primary">
+        <ul>
+            <li><a href="#clothing">Clothing</a></li>
+            <li><a href="#jewelry">Jewelry</a></li>
+            <li><a href="#traditional-crafts">Traditional Crafts</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#deals" class="badge">Deals</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main" id="main" tabindex="-1">
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Welcome to Chukchuk Sales</h1>
+          <p>Find stylish, affordable clothing, meaningful jewelry and inspiring books—curated picks for everyday life.</p>
+          <p><a class="cta" href="#products">Browse featured items</a></p>
+        </div>
+        <div class="hero-visual" aria-hidden="true"></div>
+      </section>
+
+      <section id="products" class="products">
+        <h2>Featured Products</h2>
+          <nav aria-label="product categories" class="product-cats">
+            <a href="#clothing">Clothing</a>
+            <a href="#jewelry">Jewelry</a>
+            <a href="#traditional-crafts">Traditional Crafts</a>
+            <a href="#books">Books</a>
+          </nav>
+        <h3 id="clothing" class="sr-only">Clothing</h3>
+        <h3 id="jewelry" class="sr-only">Jewelry</h3>
+        <h3 id="traditional-crafts" class="sr-only">Traditional Crafts</h3>
+        <h3 id="books" class="sr-only">Books</h3>
+        <div class="grid">
+          <!-- sample cards -->
+          <article class="card" data-name="Meri Blouse" data-price="$29.99" data-desc="Breathable cotton, perfect for warm days." data-img="images/p1.svg">
+            <button class="wish" aria-pressed="false" title="Add to wishlist">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.9-9.5-8.1C-0.3 8.4 3.2 4 8 5.6 10 6.4 12 8 12 8s2-1.6 4-2.4c4.8-1.6 8.3 2.8 5.5 7.3C19.5 16.1 12 21 12 21z"/></svg>
+            </button>
+            <img class="quick-view" src="C:\Users\LiteHaus\Desktop\blouse.WEBP" alt="Blue dress on a hanger" loading="lazy">
+            <div class="card-body">
+              <h3>Meri Blouse</h3>
+              <p class="price">$29.99</p>
+              <p class="desc">Breathable cotton, perfect for warm days.</p>
+              <a class="btn" href="#">Buy now</a>
+            </div>
+          </article>
+
+          <article class="card" data-name="Handmade Necklace" data-price="$45.00" data-desc="Elegant sterling silver — handmade accents." data-img="images/p2.svg">
+            <button class="wish" aria-pressed="false" title="Add to wishlist">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.9-9.5-8.1C-0.3 8.4 3.2 4 8 5.6 10 6.4 12 8 12 8s2-1.6 4-2.4c4.8-1.6 8.3 2.8 5.5 7.3C19.5 16.1 12 21 12 21z"/></svg>
+            </button>
+            <img class="quick-view" src="C:\Users\LiteHaus\Desktop\wassup.WEBP" alt="Sterling silver necklace on a display card" loading="lazy">
+            <div class="card-body">
+              <h3>Traditional Necklaces and bracelets</h3>
+              <p class="price">$45.00</p>
+              <p class="desc">Elegant sterling silver — handmade accents.</p>
+              <a class="btn" href="#">Buy now</a>
+            </div>
+          </article>
+
+          <article class="card" data-name="Bestselling Books" data-price="From $9.99" data-desc="Top picks for personal growth and leisure reading." data-img="images/p3.svg">
+            <button class="wish" aria-pressed="false" title="Add to wishlist">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.9-9.5-8.1C-0.3 8.4 3.2 4 8 5.6 10 6.4 12 8 12 8s2-1.6 4-2.4c4.8-1.6 8.3 2.8 5.5 7.3C19.5 16.1 12 21 12 21z"/></svg>
+            </button>
+            <img class="quick-view" src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1000&auto=format&fit=crop" alt="Stack of books with warm covers" loading="lazy">
+            <div class="card-body">
+              <h3>Books</h3>
+              <p class="price">From $9.99</p>
+              <p class="desc">Top picks for personal growth and leisure reading.</p>
+              <a class="btn" href="#">Buy now</a>
+            </div>
+          </article>
+
+          <article class="card" data-name="Comfy Tee" data-price="$12.99" data-desc="Unisex fit, soft fabric." data-img="images/p4.svg">
+            <button class="wish" aria-pressed="false" title="Add to wishlist">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.9-9.5-8.1C-0.3 8.4 3.2 4 8 5.6 10 6.4 12 8 12 8s2-1.6 4-2.4c4.8-1.6 8.3 2.8 5.5 7.3C19.5 16.1 12 21 12 21z"/></svg>
+            </button>
+            <img class="quick-view" src="https://images.unsplash.com/photo-1520962910068-6a14b5eae54f?q=80&w=1000&auto=format&fit=crop" alt="Casual t-shirt folded on a surface" loading="lazy">
+            <div class="card-body">
+              <h3>Comfy Tee</h3>
+              <p class="price">$12.99</p>
+              <p class="desc">Unisex fit, soft fabric.</p>
+              <a class="btn" href="#">Buy now</a>
+            </div>
+          </article>
+
+          <article class="card" data-name="Elegant Bracelet" data-price="$34.00" data-desc="Minimal design, polished finish." data-img="images/p5.svg">
+            <button class="wish" aria-pressed="false" title="Add to wishlist">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.9-9.5-8.1C-0.3 8.4 3.2 4 8 5.6 10 6.4 12 8 12 8s2-1.6 4-2.4c4.8-1.6 8.3 2.8 5.5 7.3C19.5 16.1 12 21 12 21z"/></svg>
+            </button>
+            <img class="quick-view" src="https://images.unsplash.com/photo-1504606574539-93b07b4341d2?q=80&w=1000&auto=format&fit=crop" alt="Minimal polished bracelet on velvet" loading="lazy">
+            <div class="card-body">
+              <h3>Elegant Bracelet</h3>
+              <p class="price">$34.00</p>
+              <p class="desc">Minimal design, polished finish.</p>
+              <a class="btn" href="#">Buy now</a>
+            </div>
+          </article>
+
+          <article class="card" data-name="Photo Book" data-price="$19.99" data-desc="Delightful images and essays." data-img="images/p6.svg">
+            <button class="wish" aria-pressed="false" title="Add to wishlist">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.9-9.5-8.1C-0.3 8.4 3.2 4 8 5.6 10 6.4 12 8 12 8s2-1.6 4-2.4c4.8-1.6 8.3 2.8 5.5 7.3C19.5 16.1 12 21 12 21z"/></svg>
+            </button>
+            <img class="quick-view" src="https://images.unsplash.com/photo-1519681393784-9a3b93a6aa7a?q=80&w=1000&auto=format&fit=crop" alt="Coffee table photo book" loading="lazy">
+            <div class="card-body">
+              <h3>Photo Book</h3>
+              <p class="price">$19.99</p>
+              <p class="desc">Delightful images and essays.</p>
+              <a class="btn" href="#">Buy now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <aside class="sidebar" aria-labelledby="aside-heading">
+      <h2 id="aside-heading">Categories</h2>
+      <ul>
+        <li><a href="#clothing">Clothing</a></li>
+        <li><a href="#jewelry">Jewelry</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#gifts">Gifts</a></li>
+      </ul>
+
+      <div class="newsletter">
+        <h3>Join our newsletter</h3>
+        <form action="#" method="post" aria-label="Subscribe to newsletter">
+          <label for="email" class="sr-only">email</label>
+          <input id="email" name="email" type="email" placeholder="you@domain.com" required>
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </aside>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Chukchuk Sales</strong>
+        <p>Affordable, unique finds.</p>
+      </div>
+      <div class="legal">
+        <small>&copy; 2025 Chukchuk Sales — All rights reserved.</small>
+      </div>
+    </footer>
+
+  </div>
+
+  </body>
+</html>
+
+
